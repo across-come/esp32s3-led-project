@@ -26,3 +26,7 @@ venv/
 # OS
 Thumbs.db
 .DS_Store
+
+# Personal interview notes (keep local only)
+ESP32S3_interview_QA_mobile.*
+ESP32S3项目面试题与参考答案.md

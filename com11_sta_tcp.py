@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""COM11: STA 1111 / 1234567890 -> TCP 115.120.239.161:27278 -> data_gen."""
+"""PC-side serial test: WiFi STA connect -> TCP upload -> data generation."""
 import re
 import serial
 import sys
@@ -7,10 +7,10 @@ import time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-SSID = "1111"
-PWD = "1234567890"
-TCP_IP = "115.120.239.161"
-TCP_PORT = 27278
+SSID = "<YOUR_WIFI_SSID>"
+PWD = "<YOUR_WIFI_PASSWORD>"
+TCP_IP = "<SERVER_IP>"
+TCP_PORT = <SERVER_PORT>
 
 
 def main():
