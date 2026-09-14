@@ -64,4 +64,3 @@ idf.py -p COMx flash monitor
 |------|------|
 | `partitions-16MiB.csv` | 16MB Flash 分区表 (nvs / phy / factory / fat vfs / spiffs) |
 | `sdkconfig.defaults` | LVGL 8.3 默认配置 |
-| `ESP32S3_interview_QA_mobile.pdf/html` | 面试问答速查文档 |
